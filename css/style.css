@@ -1,0 +1,35 @@
+#menu {
+  width: 600px;
+  height: 125px;
+  font-size: 20px;
+  margin: 10px 10px 10px 900px;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+.menusuperior li {
+  list-style-type: none;
+  padding: 10px;
+  margin: 10px 0px 10px 20px;
+}
+.menusuperior ul li {
+  display: inline-block;
+  font-family: Helvetica, sans-serif;
+  background-color: green;
+  border-radius: 5px;
+  color: white;
+}
+.menusuperior ul li a:link {
+  background-color: green;
+  color: white;
+}
+.menusuperior ul li a:visited {
+  color: rgb(18, 167, 236);
+}
+.menusuperior ul li:hover {
+  background-color: hotpink;
+}
+.menusuperior ul li a:active {
+  background-color: greenyellow;
+}
